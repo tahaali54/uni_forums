@@ -38,45 +38,48 @@ List<Topic> topics = [
     isNew: true,
     replies: [
       Reply(
-        content: "It's a beautiful location with the marvelous architecture of the university building always in sight",
+        content:
+            "It's a beautiful location with the marvelous architecture of the university building always in sight",
         replier: "Alice",
-        avatarUrl: "https://ui-avatars.com/api/?name=Alice&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=1",
         replyDate: DateTime(2026, 1, 1),
         likes: 12,
       ),
       Reply(
         content: "I completely agree!",
         replier: "Charlie",
-        avatarUrl: "https://ui-avatars.com/api/?name=Charlie&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=2",
         replyDate: DateTime(2026, 2, 1, 10, 30),
         likes: 0,
       ),
       Reply(
         content: "I prefer the cafe, but Schön is nice too.",
         replier: "David",
-        avatarUrl: "https://ui-avatars.com/api/?name=David&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=3",
         replyDate: DateTime(2026, 2, 1, 11, 0),
         likes: 5,
       ),
     ],
   ),
   Topic(
-    title: "Teaching Mathematics in university to computer science students is a joke",
+    title:
+        "Teaching Mathematics in university to computer science students is a joke",
     originalPoster: "Bob",
     creationDate: DateTime(2026, 1, 2),
     isNew: true,
     replies: [
       Reply(
-        content: "Mathematics is important, but the way it's taught doesn't connect with real-world applications.",
+        content:
+            "Mathematics is important, but the way it's taught doesn't connect with real-world applications.",
         replier: "Bob",
-        avatarUrl: "https://ui-avatars.com/api/?name=Bob&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=4",
         replyDate: DateTime(2026, 1, 2),
         likes: 28,
       ),
       Reply(
         content: "I think it's important, but the way it's taught is outdated.",
         replier: "Alice",
-        avatarUrl: "https://ui-avatars.com/api/?name=Alice&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=1",
         replyDate: DateTime(2026, 1, 3),
         likes: 0,
       ),
@@ -89,16 +92,17 @@ List<Topic> topics = [
     isNew: true,
     replies: [
       Reply(
-        content: "Speed programming contests are all about practice and quick thinking.",
+        content:
+            "Speed programming contests are all about practice and quick thinking.",
         replier: "Charlie",
-        avatarUrl: "https://ui-avatars.com/api/?name=Charlie&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=2",
         replyDate: DateTime(2026, 2, 3),
         likes: 0,
       ),
       Reply(
         content: "Practice makes perfect!",
         replier: "David",
-        avatarUrl: "https://ui-avatars.com/api/?name=David&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=3",
         replyDate: DateTime(2026, 2, 4),
         likes: 45,
       ),
@@ -111,16 +115,17 @@ List<Topic> topics = [
     isNew: false,
     replies: [
       Reply(
-        content: "Web programming is all about understanding the basics and building projects.",
+        content:
+            "Web programming is all about understanding the basics and building projects.",
         replier: "David",
-        avatarUrl: "https://ui-avatars.com/api/?name=David&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=3",
         replyDate: DateTime(2026, 2, 4),
         likes: 0,
       ),
       Reply(
         content: "Focus on projects and understanding the basics.",
         replier: "Eve",
-        avatarUrl: "https://ui-avatars.com/api/?name=Eve&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=5",
         replyDate: DateTime(2026, 2, 5),
         likes: 67,
       ),
@@ -135,10 +140,10 @@ List<Topic> topics = [
       Reply(
         content: "Being a winner is about staying positive and working hard.",
         replier: "Eve",
-        avatarUrl: "https://ui-avatars.com/api/?name=Eve&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=5",
         replyDate: DateTime(2026, 3, 5),
         likes: 0,
-      )
+      ),
     ],
   ),
   Topic(
@@ -148,16 +153,17 @@ List<Topic> topics = [
     isNew: false,
     replies: [
       Reply(
-        content: "There are some strange things happening behind the cafe that need attention.",
+        content:
+            "There are some strange things happening behind the cafe that need attention.",
         replier: "Frank",
-        avatarUrl: "https://ui-avatars.com/api/?name=Frank&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=6",
         replyDate: DateTime(2026, 4, 6),
         likes: 33,
       ),
       Reply(
         content: "I've seen some strange things there too.",
         replier: "Alice",
-        avatarUrl: "https://ui-avatars.com/api/?name=Alice&background=random",
+        avatarUrl: "https://i.pravatar.cc/150?img=1",
         replyDate: DateTime(2026, 4, 7),
         likes: 0,
       ),
